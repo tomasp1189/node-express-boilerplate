@@ -1,0 +1,28 @@
+{
+	"name": "node-express-boilerplate",
+	"version": "0.0.0",
+	"private": true,
+	"description": "boilerplate node + express app",
+	"scripts": {
+		"start": "node ./bin/www",
+		"dev": "nodemon ./bin/www",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Tomás Puricelli (tomasp1189)",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.3",
+		"winston": "^2.4.2",
+		"cookie-parser": "~1.4.3",
+		"debug": "~2.6.9",
+		"http-errors": "~1.6.2",
+		"jade": "~1.11.0",
+		"morgan": "~1.9.0"
+	},
+	"devDependencies": {
+		"chai": "^4.1.2",
+		"mocha": "^5.2.0",
+		"nodemon": "^1.17.5"
+	}
+}
